@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /rest-api
+    session:
+      cookie:
+        path: /rest-api
+spring:
+  profiles:
+    active: test
